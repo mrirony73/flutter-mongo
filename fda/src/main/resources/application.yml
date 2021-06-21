@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    encoding:
+      charset: utf-8
+      enabled: true
+    
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: factorydb
+      username: factory
+      password: factory1234
+
+  jackson:
+    time-zone: Asia/Seoul
+
+
+
